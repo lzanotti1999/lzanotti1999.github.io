@@ -105,3 +105,34 @@ h2 {
     width: 170px;
   }
 }
+
+.paper-title a {
+  color: #222;
+  text-decoration: underline;
+}
+
+.coauthors {
+  font-weight: normal;
+  color: #777;
+}
+
+.coauthors a {
+  color: #777;
+  text-decoration: underline dotted;
+}
+
+.abstract {
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+
+.abstract summary {
+  cursor: pointer;
+  color: #555;
+  font-size: 17px;
+}
+
+.abstract p {
+  margin-top: 8px;
+  color: #333;
+}
