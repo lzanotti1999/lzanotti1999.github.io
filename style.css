@@ -143,3 +143,14 @@ h2 {
   margin-top: 8px;
   color: #333;
 }
+
+/* Make main sections bigger */
+section:nth-of-type(1) h2,
+section:nth-of-type(2) h2 {
+  font-size: 26px;
+}
+
+/* Make Contact smaller */
+section:nth-of-type(3) h2 {
+  font-size: 20px;
+}
