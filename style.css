@@ -8,27 +8,24 @@ body {
 }
 
 .page {
-  max-width: 980px;
-  margin: 32px auto;
-  padding: 0 24px;
-}
+  max-width: 1120px;
+  margin: 38px auto;
+  padding: 0 28px;
 
-.header {
   display: grid;
-  grid-template-columns: 230px 1fr;
-  gap: 42px;
-  align-items: start;
-  margin-bottom: 60px;
+  grid-template-columns: 260px 1fr;
+  gap: 52px;
 }
 
 .sidebar {
+  grid-column: 1;
   text-align: center;
   line-height: 1.6;
 }
 
 .profile-photo {
-  width: 210px;
-  max-height: 280px;
+  width: 230px;
+  max-height: 310px;
   object-fit: cover;
   border-radius: 2px;
 }
@@ -54,44 +51,30 @@ body {
   text-decoration: underline;
 }
 
+.main-content {
+  grid-column: 2;
+  max-width: 760px;
+}
+
 .intro h1 {
-  margin: 0 0 6px 0;
+  margin: 0 0 16px 0;
   color: #7a1232;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.15;
 }
 
-.subtitle {
-  color: #666;
-  margin: 0 0 18px 0;
-  font-size: 17px;
-}
-
 .intro p {
-  max-width: 650px;
-}
-
-.links {
-  margin-top: 18px;
-}
-
-.links a {
-  margin-right: 16px;
-  text-decoration: none;
-  color: #0047ab;
-}
-
-.links a:hover {
-  text-decoration: underline;
+  margin-top: 0;
+  margin-bottom: 22px;
 }
 
 h2 {
   font-size: 24px;
-  margin-top: 32px;
+  margin-top: 42px;
   margin-bottom: 18px;
   border-bottom: 1px solid #ddd;
-  padding-bottom: 6px;
+  padding-bottom: 8px;
   font-weight: 700;
 }
 
@@ -107,7 +90,6 @@ h2 {
 .paper-title a {
   color: #222;
   text-decoration: underline;
-  border-bottom: none;
 }
 
 .coauthors {
@@ -147,7 +129,7 @@ h2 {
 
 .abstract summary {
   cursor: pointer;
-  color: #777;
+  color: #666;
   font-size: 17px;
 }
 
@@ -156,20 +138,23 @@ h2 {
   color: #333;
 }
 
-@media (max-width: 700px) {
-  .header {
-    grid-template-columns: 1fr;
-    gap: 18px;
-    margin-bottom: 42px;
-  }
-
-  .profile-photo {
-    width: 170px;
+@media (max-width: 750px) {
+  .page {
+    display: block;
+    margin: 28px auto;
   }
 
   .sidebar {
     text-align: left;
+    margin-bottom: 32px;
+  }
+
+  .profile-photo {
+    width: 190px;
+  }
+
+  .main-content {
+    max-width: none;
   }
 }
-
 
