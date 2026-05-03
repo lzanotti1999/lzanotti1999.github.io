@@ -186,3 +186,7 @@ h2 {
 .icons a:hover {
   color: #7a1232;
 }
+
+.abstract {
+  text-align: justify;
+}
