@@ -22,7 +22,7 @@ body {
 }
 
 .sidebar {
-  text-align: center;
+  text-align: left;
   line-height: 1.6;
 }
 
@@ -57,7 +57,7 @@ body {
 .intro h1 {
   margin: 0 0 6px 0;
   color: #7a1232;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 1.15;
 }
@@ -96,7 +96,7 @@ h2 {
 }
 
 .paper {
-  margin-bottom: 26px;
+  margin-bottom: 32px;
 }
 
 .paper-title {
@@ -147,7 +147,7 @@ h2 {
 
 .abstract summary {
   cursor: pointer;
-  color: #555;
+  color: #777;
   font-size: 17px;
 }
 
