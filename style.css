@@ -27,6 +27,18 @@ body {
   align-items: start;
 }
 
+.site-title {
+  grid-column: 1 / 2;
+}
+
+.sidebar {
+  grid-column: 1 / 2;
+}
+
+.content {
+  grid-column: 2 / 3;
+}
+
 .sidebar {
   text-align: center;
 }
