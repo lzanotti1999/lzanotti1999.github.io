@@ -175,5 +175,39 @@ h2 {
   }
 }
 
+/* Closer to D'Amico-style polish */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.intro h1 {
+  color: #7a1232;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.paper-title {
+  font-weight: 700;
+}
+
+.subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-photo {
+  border-radius: 2px;
+}
+
+.sidebar h3 {
+  font-weight: 700;
+}
+
 
 
