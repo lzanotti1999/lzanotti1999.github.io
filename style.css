@@ -187,6 +187,7 @@ h2 {
   color: #7a1232;
 }
 
-.abstract {
+.abstract p {
   text-align: justify;
+  hyphens: auto;
 }
