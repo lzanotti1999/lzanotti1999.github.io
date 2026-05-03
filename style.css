@@ -168,3 +168,21 @@ h2 {
 .content {
   margin-top: 60px;   /* adjust if needed */
 }
+
+.icons {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.icons a {
+  font-size: 18px;
+  color: #777;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.icons a:hover {
+  color: #7a1232;
+}
