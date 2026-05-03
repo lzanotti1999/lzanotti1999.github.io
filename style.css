@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #222;
   background: #fff;
   line-height: 1.45;
@@ -8,41 +8,41 @@ body {
 }
 
 .page {
-  max-width: 900px;
+  max-width: 980px;
   margin: 32px auto;
   padding: 0 24px;
 }
 
-/* ===== HEADER LAYOUT (NEW) ===== */
 .header {
   display: grid;
   grid-template-columns: 230px 1fr;
-  gap: 38px;
+  gap: 42px;
   align-items: start;
-  margin-bottom: 42px;
+  margin-bottom: 60px;
 }
 
-/* LEFT SIDEBAR */
 .sidebar {
   text-align: center;
+  line-height: 1.6;
 }
 
 .profile-photo {
   width: 210px;
   max-height: 280px;
   object-fit: cover;
+  border-radius: 2px;
 }
 
 .sidebar h3 {
   margin-top: 18px;
   margin-bottom: 10px;
   font-size: 18px;
-  color: #7a1232; /* subtle burgundy like D’Amico */
-  font-weight: normal;
+  color: #7a1232;
+  font-weight: 700;
 }
 
 .sidebar p {
-  margin: 6px 0;
+  margin: 10px 0;
 }
 
 .sidebar a {
@@ -54,11 +54,11 @@ body {
   text-decoration: underline;
 }
 
-/* RIGHT INTRO */
 .intro h1 {
   margin: 0 0 6px 0;
-  font-size: 36px;
-  font-weight: normal;
+  color: #7a1232;
+  font-size: 30px;
+  font-weight: 700;
   line-height: 1.15;
 }
 
@@ -66,6 +66,10 @@ body {
   color: #666;
   margin: 0 0 18px 0;
   font-size: 17px;
+}
+
+.intro p {
+  max-width: 650px;
 }
 
 .links {
@@ -82,34 +86,30 @@ body {
   text-decoration: underline;
 }
 
-/* SECTION TITLES */
 h2 {
-  font-size: 25px;   /* slightly larger (your request) */
+  font-size: 24px;
   margin-top: 32px;
   margin-bottom: 18px;
   border-bottom: 1px solid #ddd;
   padding-bottom: 6px;
-  font-weight: normal;
+  font-weight: 700;
 }
 
-/* PAPER BLOCK */
 .paper {
-  margin-bottom: 22px;
+  margin-bottom: 26px;
 }
 
 .paper-title {
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 4px;
 }
 
-/* CLEAN UNDERLINE FOR TITLES */
 .paper-title a {
   color: #222;
   text-decoration: underline;
   border-bottom: none;
 }
 
-/* COAUTHORS */
 .coauthors {
   margin-left: 6px;
   font-weight: normal;
@@ -122,13 +122,11 @@ h2 {
   border-bottom: 1px dotted #777;
 }
 
-/* TEXT SPACING */
 .paper p {
   margin-top: 0;
   margin-bottom: 8px;
 }
 
-/* LINKS (SSRN etc.) */
 .paper-links {
   margin-top: 4px;
 }
@@ -142,7 +140,6 @@ h2 {
   text-decoration: underline;
 }
 
-/* ABSTRACT */
 .abstract {
   margin-top: 6px;
   margin-bottom: 8px;
@@ -159,11 +156,11 @@ h2 {
   color: #333;
 }
 
-/* MOBILE */
 @media (max-width: 700px) {
   .header {
     grid-template-columns: 1fr;
     gap: 18px;
+    margin-bottom: 42px;
   }
 
   .profile-photo {
@@ -174,40 +171,5 @@ h2 {
     text-align: left;
   }
 }
-
-/* Closer to D'Amico-style polish */
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-}
-
-.intro h1 {
-  color: #7a1232;
-  font-weight: 700;
-  font-size: 30px;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.paper-title {
-  font-weight: 700;
-}
-
-.subtitle {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.profile-photo {
-  border-radius: 2px;
-}
-
-.sidebar h3 {
-  font-weight: 700;
-}
-
 
 
