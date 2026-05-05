@@ -141,21 +141,46 @@ h2 {
 }
 
 @media (max-width: 750px) {
+  body {
+    padding: 0;
+  }
+
+  .page {
+    margin: 20px auto;
+    padding: 0 24px;
+  }
+
   .layout {
     display: block;
   }
 
+  .site-title {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 28px;
+  }
+
   .sidebar {
-    text-align: left;
-    margin-bottom: 32px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 48px auto;
   }
 
   .profile-photo {
-    width: 190px;
+    display: block;
+    width: 260px;
+    max-width: 85%;
+    margin: 0 auto 28px auto;
+  }
+
+  .icons {
+    justify-content: center;
   }
 
   .content {
+    width: 100%;
     max-width: none;
+    margin-top: 0;
   }
 }
 
