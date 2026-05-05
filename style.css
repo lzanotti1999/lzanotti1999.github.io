@@ -191,3 +191,39 @@ h2 {
   text-align: justify;
   hyphens: auto;
 }
+
+@media (max-width: 700px) {
+  body {
+    padding: 16px;
+  }
+
+  .container,
+  .main,
+  .content {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .profile,
+  .intro,
+  .row,
+  .about {
+    display: block;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
