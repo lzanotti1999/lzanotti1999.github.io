@@ -114,7 +114,9 @@ h2 {
 }
 
 .abstract {
-  margin: 4px 0 8px 0;
+    margin: 4px 0 8px 0;
+    border-bottom: 1px solid #777;
+    padding-bottom: 12px;
 }
 
 .abstract summary {
